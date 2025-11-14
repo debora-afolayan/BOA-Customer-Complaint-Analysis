@@ -104,16 +104,10 @@ Fact Table
 
 **Dimension Tables**
 
-DateTable
+- DateTable
 
+- State/Region Dimension
 
-Product Dimension
+- Issue Category Dimension
 
-
-State/Region Dimension
-
-
-Issue Category Dimension
-
-
-Relationships were created between Fact_Complaints and the DateTable using Date Received.
+- Relationships were created between Fact_Complaints and the DateTable using Date Received.
