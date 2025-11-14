@@ -24,14 +24,22 @@ Key Fields/Columns include:
 
 - Complaint ID – Unique identifier for each complaint
 
--Date Submitted – When the compliant was submitted
+- Date Submitted – When the compliant was submitted
 
--Date Received – When the complaint was received
+- Date Received – When the complaint was received
 
--Product – The financial product or service involved (e.g., credit card, mortgage)
--Sub-product – 
--Issue – Specific problem experienced by the customer
--Sub-Issue – 
--Company Response to consumer – BOA's response to customer
--State – Customer location
--Submitted Via – Channel used to submit the complaint (e.g., web, phone)
+- Product – The financial product or service involved (e.g., credit card, mortgage)
+
+- Sub-product – 
+
+- Issue – Specific problem experienced by the customer
+
+- Sub-Issue – 
+
+- Company Response to consumer – BOA's response to customer
+
+- Company Response to public – BOA's response to the public
+
+- State – Customer location
+
+- Submitted Via – Channel used to submit the complaint (e.g., web, phone)
