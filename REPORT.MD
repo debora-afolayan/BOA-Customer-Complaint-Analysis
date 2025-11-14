@@ -47,12 +47,16 @@ It contains approximately 65,000 rows and 12 columns, providing detailed informa
 
 - Timely Response
 
+
 # **Tools Used**
+
 
 - Excel (Power Query)
 - PowerBi (Dax, Data Modelling, Visualization) 
 
+
 # **Analysis & Methodology**
+
 
 To address the business problems and answer stakeholder questions, a comprehensive analysis was conducted on Bank of America’s CFPB customer complaint dataset (2017–2023). The process included data cleaning, data modeling, measure creation, visual analytics, and predictive forecasting.
 
@@ -207,7 +211,9 @@ RETURN NextYearValue * (1 + [Complaint Growth Rate])
 
 - **Two-Year Growth %**
 
-# **Complaint Analysis Overview Dashboard**.
+
+# **Complaint Analysis Overview Dashboard**
+
 
 **KPI Cards:** - Total Number of Complaints, Complaint Response Rate, Customer Satisfaction Rate, Year on Year % Change in Complaints.
 
@@ -218,7 +224,8 @@ RETURN NextYearValue * (1 + [Complaint Growth Rate])
 **Column Chart:** Complaint Response Status, Top 10 Customer Issues.
 
 
-# **Geographical Analysis Dashboard**.
+# **Geographical Analysis Dashboard**
+
 
 **Funnel:** Regions by Complaint Distribution.
 
@@ -226,12 +233,24 @@ RETURN NextYearValue * (1 + [Complaint Growth Rate])
 
 **Column Chart:** Top 20 States by complaints count, Average number of Days for BOA to receive complaint after complaint Submission by Customer.
 
+
  # **Predictive Analysis Dashboard**
 
-**KPI Cards:** - Total Number of Complaints, Complaint Response Rate, Customer Satisfaction Rate, Year on Year % Change in Complaints.
 
-**Bar Chart:** Top Products with Complaints, Top Complaint Channels .
+**KPI Cards:** - 2022 Total Complaints, 2023 Total Complaints, 2024 Forcast number, Year on Year % Change in Complaints, 2 years Time Forcast number growth.
 
-**Line Chart:** Yearly Complaint Trend.
+**Decomposition Tree:** Complaint distribution by Product, Year, Region and Complaint Channel .
+
+**Line Chart:** Complaint Forcast  by Year and Months.
 
 **Column Chart:** Complaint Response Status, Top 10 Customer Issues.
+
+
+# **Executive Summary**
+
+This analysis evaluated 62,000+ customer complaints submitted to the CFPB regarding Bank of America from 2017 to 2023. The goal was to provide leadership with a data-driven understanding of what customers complain about, where complaints originate, how effectively the bank responds, and what future complaint levels may look like.
+
+The analysis revealed that complaints are heavily concentrated around Savings Accounts, Credit Cards, and Credit Reporting, with the South and West regions recording the highest volumes. While the bank maintains strong response outcomes, with 97.6% of customers indicating no dispute, there are notable variations in response timeliness across regions.
+
+Customers primarily use web and referral channels to submit complaints, indicating a shift toward digital engagement. Forecasting models show that, if current patterns continue, complaint volumes may continue to rise modestly over the next two years.
+The findings provide clear direction for 
