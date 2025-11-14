@@ -344,7 +344,7 @@ Standardize response protocols and allocate more back-office resources where nee
 
 
 # **Contact Information:**
-**LinkedIn:** [(Linkedin Profile)][https://www.linkedin.com/in/deborah-afolayan/]
+**LinkedIn:** [Linkedin Profile](https://www.linkedin.com/in/deborah-afolayan/)
 
 
 Email: [Insert Email]
