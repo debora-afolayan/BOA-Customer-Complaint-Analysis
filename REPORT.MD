@@ -113,3 +113,75 @@ To address the business problems and answer stakeholder questions, a comprehensi
 - Issue Category Dimension
 
 - Relationships were created between Fact_Complaints and the DateTable using Date Received.
+
+
+**3. DAX Measures Used to Produce Insights**
+📌 Base Measures
+Total Complaints = COUNTROWS('Fact_Complaints')
+
+Total Complaints (Monthly) =
+CALCULATE([Total Complaints], ALLEXCEPT('DateTable','DateTable'[YearMonth]))
+
+Total Complaints (Yearly) =
+CALCULATE([Total Complaints], ALLEXCEPT('DateTable','DateTable'[Year]))
+📌 Complaint Trend Analysis
+Last Actual Year =
+CALCULATE(MAX('DateTable'[Year]),
+FILTER(ALL('DateTable'), NOT ISBLANK([Total Complaints])))
+
+Total Complaints (Last Year) =
+CALCULATE([Total Complaints], 'DateTable'[Year] = [Last Actual Year] - 1)
+
+YoY % Change =
+DIVIDE([Total Complaints] - [Total Complaints (Last Year)], [Total Complaints (Last Year)])
+
+Used to generate year-over-year trend charts and KPI cards.
+📌 Response Performance
+Timely Response % =
+DIVIDE(
+    CALCULATE([Total Complaints], 'Fact_Complaints'[Timely response] = "Yes"),
+    [Total Complaints]
+)
+
+Customer Satisfaction % =
+CALCULATE(
+    DIVIDE(
+        CALCULATE([Total Complaints], 'Fact_Complaints'[Consumer disputed] = "No"),
+        [Total Complaints]
+    )
+)
+
+These supported visuals on response quality, timeliness, and resolution outcomes.
+📌 Geographical Insights
+Complaints by State = [Total Complaints]
+
+Complaints by Region =
+CALCULATE([Total Complaints], ALLEXCEPT('Fact_Complaints','Fact_Complaints'[Region]))
+
+Used to render the state map and regional breakdown.
+📌 Forecasting (Next 2 Years)
+Growth for forecasting:
+Complaint Growth Rate =
+VAR Last = [Last Actual Year]
+VAR Current = CALCULATE([Total Complaints], 'DateTable'[Year] = Last)
+VAR Previous = CALCULATE([Total Complaints], 'DateTable'[Year] = Last - 1)
+RETURN DIVIDE(Current - Previous, Previous)
+
+Forecast year + 1:
+Forecast Next Year =
+VAR LastValue = CALCULATE([Total Complaints], 'DateTable'[Year] = [Last Actual Year])
+RETURN LastValue * (1 + [Complaint Growth Rate])
+Forecast year + 2:
+Forecast Year After Next =
+VAR NextYearValue = [Forecast Next Year]
+RETURN NextYearValue * (1 + [Complaint Growth Rate])
+
+These were displayed in three KPI cards:
+Forecast 2024
+
+
+Forecast 2025
+
+
+Two-Year Growth %
+
