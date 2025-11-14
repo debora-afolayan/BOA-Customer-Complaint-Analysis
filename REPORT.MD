@@ -54,12 +54,12 @@ To address the business problems and answer stakeholder questions, a comprehensi
 
 **Data Understanding & Cleaning**
 
-Standardized inconsistent product names and categories.
+- Standardized inconsistent product names and categories.
 
-Validated dates for Date received and Date sent to company.
+- Validated dates for Date received and Date sent to company.
 
-Created a unified Date Table to support time intelligence analysis.
+- Created a unified Date Table to support time intelligence analysis.
 
-Removed blank complaint IDs and duplicate entries.
+- Removed blank complaint IDs and duplicate entries.
 
-Ensured all complaint records were linked correctly to states, products, issues, and response outcomes.
+- Ensured all complaint records were linked correctly to states, products, issues, and response outcomes.
