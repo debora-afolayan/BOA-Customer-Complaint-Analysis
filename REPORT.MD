@@ -190,11 +190,11 @@ RETURN LastValue * (1 + [Complaint Growth Rate])
 - **VAR NextYearValue =** [Forecast Next Year]
 RETURN NextYearValue * (1 + [Complaint Growth Rate])
 
-**These were displayed in three KPI cards:**
+**These were displayed in KPI cards:**
 
 - **Total Number of Complaints**
 
-- **Complaint REsponse Rate**
+- **Complaint Response Rate**
 
 - **Customer Satisfaction Rate**
 
