@@ -1,6 +1,6 @@
-***Introduction***
+**Introduction**
 
-##Business Overview##
+#Business Overview#
 
 Bank of America receives thousands of customer complaints each year reported through the Consumer Financial Protection Bureau (CFPB). These complaints span various financial products including Savings Accounts, Credit Reporting, Credit Cards, Mortgages, Money Transfers, and Debt Collection, and are submitted through multiple channels such as web, referrals, phone, and postal mail.
 
