@@ -45,3 +45,21 @@ It contains approximately 65,000 rows and 12 columns, providing detailed informa
 - Submitted Via – Channel used to submit the complaint (e.g., web, phone)
 
 - Timely Response
+
+# **Analysis & Methodology**
+
+To address the business problems and answer stakeholder questions, a comprehensive analysis was conducted on Bank of America’s CFPB customer complaint dataset (2017–2023). The process included data cleaning, data modeling, measure creation, visual analytics, and predictive forecasting.
+
+**The analysis followed these stages:**
+
+**Data Understanding & Cleaning**
+
+Standardized inconsistent product names and categories.
+
+Validated dates for Date received and Date sent to company.
+
+Created a unified Date Table to support time intelligence analysis.
+
+Removed blank complaint IDs and duplicate entries.
+
+Ensured all complaint records were linked correctly to states, products, issues, and response outcomes.
