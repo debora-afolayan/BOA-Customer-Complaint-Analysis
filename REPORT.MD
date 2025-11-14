@@ -18,24 +18,17 @@ To analyze Bank of America’s consumer complaint data to identify key trends, u
 
 The dataset used for this project is sourced from the Consumer Financial Protection Bureau (CFPB) public complaint database, which contains customer-submitted complaints about financial institutions, including Bank of America. The extracted dataset focuses specifically on complaints related to Bank of America.
 
-It contains approximately X rows and Y columns (replace with your exact numbers), providing detailed information about each customer complaint.
+It contains approximately 65,000 rows and 12 columns, providing detailed information about each customer complaint.
 
 Key Fields/Columns include:
 
-Complaint ID – Unique identifier for each complaint
-
-Date Received – When the complaint was submitted
-
-Product – The financial product or service involved (e.g., credit card, mortgage)
-
-Issue – Specific problem experienced by the customer
-
-Company Response – How the bank responded to the complaint
-
-Timely Response – Indicates whether the bank responded within the expected timeframe
-
-Customer Disputed? – Whether the customer disagreed with the resolution
-
-State & Zip Code – Customer location
-
-Submitted Via – Channel used to submit the complaint (e.g., web, phone)
+-Complaint ID – Unique identifier for each complaint
+-Date Submitted – When the compliant was submitted
+-Date Received – When the complaint was received
+-Product – The financial product or service involved (e.g., credit card, mortgage)
+-Sub-product – 
+-Issue – Specific problem experienced by the customer
+-Sub-Issue – 
+-Company Response to consumer – BOA's response to customer
+-State – Customer location
+-Submitted Via – Channel used to submit the complaint (e.g., web, phone)
