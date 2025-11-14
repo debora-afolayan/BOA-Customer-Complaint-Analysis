@@ -78,8 +78,10 @@ To address the business problems and answer stakeholder questions, a comprehensi
 - Ensured all complaint records were linked correctly to states, products, issues, and response outcomes.
 
 **2. Data Modeling**
+
 **A Star Schema was created**
-Fact Table
+
+**Fact Table**
 
 - Fact_Complaints
 
