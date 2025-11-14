@@ -30,11 +30,11 @@ It contains approximately 65,000 rows and 12 columns, providing detailed informa
 
 - Product – The financial product or service involved (e.g., credit card, mortgage)
 
-- Sub-product – 
+- Sub-product 
 
 - Issue – Specific problem experienced by the customer
 
-- Sub-Issue – 
+- Sub-Issue  
 
 - Company Response to consumer – BOA's response to customer
 
@@ -43,3 +43,5 @@ It contains approximately 65,000 rows and 12 columns, providing detailed informa
 - State – Customer location
 
 - Submitted Via – Channel used to submit the complaint (e.g., web, phone)
+
+- Timely Response
