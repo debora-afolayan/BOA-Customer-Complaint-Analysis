@@ -59,11 +59,19 @@ To address the business problems and answer stakeholder questions, a comprehensi
 
 **Data Understanding & Cleaning**
 
+- Removed Duplicates
+
+- Assigned Correct Data Types
+
 - Standardized inconsistent product names and categories.
 
 - Validated dates for Date received and Date submitted.
 
 - Created a unified Date Table to support time intelligence analysis.
+
+- Created a State Dimension Table 
+
+- Created Year Dimension Table
 
 - Removed blank complaint IDs and duplicate entries.
 
