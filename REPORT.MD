@@ -57,7 +57,7 @@ To address the business problems and answer stakeholder questions, a comprehensi
 
 **The analysis followed these stages:**
 
-1.**Data Understanding & Cleaning**
+**1. Data Understanding & Cleaning**
 
 - Removed Duplicates
 
@@ -77,7 +77,7 @@ To address the business problems and answer stakeholder questions, a comprehensi
 
 - Ensured all complaint records were linked correctly to states, products, issues, and response outcomes.
 
-2. **Data Modeling**
+**2. Data Modeling**
 **A Star Schema was created**
 Fact Table
 
@@ -103,6 +103,7 @@ Fact Table
 
 
 **Dimension Tables**
+
 DateTable
 
 
