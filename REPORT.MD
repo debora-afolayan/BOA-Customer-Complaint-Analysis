@@ -20,7 +20,7 @@ The dataset used for this project is sourced from the Consumer Financial Protect
 
 It contains approximately 65,000 rows and 12 columns, providing detailed information about each customer complaint.
 
-Key Fields/Columns include:
+**Key Fields/Columns include:**
 
 - Complaint ID – Unique identifier for each complaint
 
