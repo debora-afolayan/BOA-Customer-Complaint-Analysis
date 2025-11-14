@@ -206,3 +206,12 @@ RETURN NextYearValue * (1 + [Complaint Growth Rate])
 
 - **Two-Year Growth %**
 
+# **Complaint Analysis Overview Dashboard**.
+
+*KPI Cards:* - Total Number of Complaints, Complaint Response Rate, Customer Satisfaction Rate, Year on Year % Change in Complaints.
+
+**Bar Chart:** Top Products with Complaints, Top Complaint Channels .
+
+**Line Chart:** Yearly Complaint Trend.
+
+**Column Chart:** Complaint Response Status, Top 10 States with with complaint Suubmission.
