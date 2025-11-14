@@ -48,7 +48,7 @@ It contains approximately 65,000 rows and 12 columns, providing detailed informa
 
 # **Tools Used**
 
--Excel (Power Query)
+- Excel (Power Query)
 - PowerBi (Dax, Data Modelling, Visualization) 
 
 # **Analysis & Methodology**
@@ -57,7 +57,7 @@ To address the business problems and answer stakeholder questions, a comprehensi
 
 **The analysis followed these stages:**
 
-**Data Understanding & Cleaning**
+1.**Data Understanding & Cleaning**
 
 - Removed Duplicates
 
@@ -76,3 +76,43 @@ To address the business problems and answer stakeholder questions, a comprehensi
 - Removed blank complaint IDs and duplicate entries.
 
 - Ensured all complaint records were linked correctly to states, products, issues, and response outcomes.
+
+2. **Data Modeling**
+**A Star Schema was created**
+Fact Table
+
+- Fact_Complaints
+
+- Complaint ID
+
+- Product
+
+- Issue
+
+- Region / State
+
+- Submission Channel
+
+- Date Received
+
+- Date Submitted
+
+- Response Type
+
+- Timely Response Flag (Yes/No)
+
+
+**Dimension Tables**
+DateTable
+
+
+Product Dimension
+
+
+State/Region Dimension
+
+
+Issue Category Dimension
+
+
+Relationships were created between Fact_Complaints and the DateTable using Date Received.
