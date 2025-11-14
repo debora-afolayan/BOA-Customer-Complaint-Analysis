@@ -208,10 +208,20 @@ RETURN NextYearValue * (1 + [Complaint Growth Rate])
 
 # **Complaint Analysis Overview Dashboard**.
 
-*KPI Cards:* - Total Number of Complaints, Complaint Response Rate, Customer Satisfaction Rate, Year on Year % Change in Complaints.
+**KPI Cards:** - Total Number of Complaints, Complaint Response Rate, Customer Satisfaction Rate, Year on Year % Change in Complaints.
 
 **Bar Chart:** Top Products with Complaints, Top Complaint Channels .
 
 **Line Chart:** Yearly Complaint Trend.
 
-**Column Chart:** Complaint Response Status, Top 10 States with with complaint Suubmission.
+**Column Chart:** Complaint Response Status, Top 10 Customer Issues.
+
+
+# **Geographical Analysis Dashboard**.
+
+**Funnel:** Regions by Complaint Distribution.
+
+**Map:** Top 5 States by Complaints.
+
+**Column Chart:** Top 20 States by complaints count, Average number of Days for BOA to receive complaint after complaint Submission by Customer.
+
