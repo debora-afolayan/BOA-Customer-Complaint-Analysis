@@ -22,7 +22,7 @@ It contains approximately 65,000 rows and 12 columns, providing detailed informa
 
 Key Fields/Columns include:
 
--Complaint ID – Unique identifier for each complaint
+- Complaint ID – Unique identifier for each complaint
 
 -Date Submitted – When the compliant was submitted
 
