@@ -46,6 +46,11 @@ It contains approximately 65,000 rows and 12 columns, providing detailed informa
 
 - Timely Response
 
+# **Tools Used**
+
+-Excel (Power Query)
+- PowerBi (Dax, Data Modelling, Visualization) 
+
 # **Analysis & Methodology**
 
 To address the business problems and answer stakeholder questions, a comprehensive analysis was conducted on Bank of America’s CFPB customer complaint dataset (2017–2023). The process included data cleaning, data modeling, measure creation, visual analytics, and predictive forecasting.
@@ -56,7 +61,7 @@ To address the business problems and answer stakeholder questions, a comprehensi
 
 - Standardized inconsistent product names and categories.
 
-- Validated dates for Date received and Date sent to company.
+- Validated dates for Date received and Date submitted.
 
 - Created a unified Date Table to support time intelligence analysis.
 
