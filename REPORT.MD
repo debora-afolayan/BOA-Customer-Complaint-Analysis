@@ -253,4 +253,33 @@ This analysis evaluated 62,000+ customer complaints submitted to the CFPB regard
 The analysis revealed that complaints are heavily concentrated around Savings Accounts, Credit Cards, and Credit Reporting, with the South and West regions recording the highest volumes. While the bank maintains strong response outcomes, with 97.6% of customers indicating no dispute, there are notable variations in response timeliness across regions.
 
 Customers primarily use web and referral channels to submit complaints, indicating a shift toward digital engagement. Forecasting models show that, if current patterns continue, complaint volumes may continue to rise modestly over the next two years.
-The findings provide clear direction for 
+The findings provide clear direction for improving service delivery, product experience, and operational efficiency.
+
+# **🔍 Key Insights**
+
+1. Savings Accounts, Credit Cards & Credit Reporting are the top complaint drivers
+These three products consistently account for over half of all complaints.
+
+2. “Managing Account”, “Incorrect Information”, and “Billing Issues” are the most recurring issues
+These reflect underlying problems in account servicing, billing disputes, and data accuracy.
+
+3. The South and West regions show the highest complaint concentration
+California leads as the state with the highest complaint volume.
+
+4. Web and Referral channels dominate complaint submission
+Indicates a preference for self-service and digital engagement over phone or mail.
+
+5. Strong satisfaction and closure performance
+97.6% of customers did not dispute the response. Most complaints were closed with explanation, showing effective resolution.
+
+6. Timeliness of response varies across regions
+Some regions take significantly longer to respond, indicating operational inefficiencies.
+
+7. Complaint levels show a fluctuating trend from 2017 to 2023
+YoY trends reveal spikes in certain years linked to economic and operational factors.
+
+8. Forecast indicates continued decrease in complaints through 2024–2025
+If current patterns hold, complaint volume will show a gradual decrease over the next two years.
+
+
+
