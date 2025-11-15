@@ -19,6 +19,7 @@ To analyze Bank of America’s consumer complaint data to identify key trends, u
 
 The dataset used for this project is sourced from the Consumer Financial Protection Bureau (CFPB) public complaint database, which contains customer-submitted complaints about financial institutions, including Bank of America. The extracted dataset focuses specifically on complaints related to Bank of America.
 
+
 It contains approximately 65,000 rows and 12 columns, providing detailed information about each customer complaint.
 
 **Key Fields/Columns include:**
