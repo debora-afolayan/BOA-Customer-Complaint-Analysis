@@ -329,10 +329,8 @@ Standardize response protocols and allocate more back-office resources where nee
 **Use:**
 
 - Monthly trend monitoring
-
-- Decomposition Tree for root cause identification
-
-- Forecast KPIs to anticipate high-volume periods
+ - Decomposition Tree for root cause identification
+  - Forecast KPIs to anticipate high-volume periods
 
 
 **6. Increase training for customer-facing and dispute-resolution teams**
